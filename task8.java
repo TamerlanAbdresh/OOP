@@ -15,7 +15,7 @@ public class task8 {
 
         for (int i = 1; i <= n; i ++) {
             double sum1 = 1.0 / (i * 2 - 1);
-            sum += pm * sum1;
+            sum += minpls * sum1;
             minpls = -minpls;
         }
 
